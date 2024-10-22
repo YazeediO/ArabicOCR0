@@ -27,7 +27,7 @@ const detectedNumberSpan = document.getElementById('detected-number');
 captureBtn.addEventListener('click', function() {
     // Play the audio file located in the 'audio' folder
     setTimeout(function() {
-        detectedNumberSpan.textContent = '١';
+        detectedNumberSpan.textContent = '٠';
         playAudioBtn.disabled = false;
     }, 4000); // 4 seconds delay
    
